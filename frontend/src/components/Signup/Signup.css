@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .background-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(255, 249, 252, 0.86), rgba(255, 255, 255, 0.9), rgba(255, 249, 252, 0.86));
+    padding: 33px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .signup-form-container {
+    width: 50%;
+    background-color: rgba(255, 234, 238, 0.25);
+    padding: 23px;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(243, 120, 192, 0.61);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .h3-box-signup {
+    text-align: center;
+    font-size: 4.5vh;
+    font-family: "Montserrat, sans-serif";
+    font-weight: lighter;
+    opacity: 0.8;
+  }
+  
+  .color-box-signup {
+    padding: 20px;
+  }
+  
+  .form-signup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-signup label {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vh;
+  }
+  
+  .form-signup input {
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 4px solid #ffc3c3;
+    background-color: rgba(255, 195, 232, 0.795);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3vh;
+  }
+  
+  .form-signup input:hover {
+    border: 4px solid white;
+  }
+  
+  .form-signup button {
+    padding: 12px;
+    background-color: #db6085;
+    color: rgb(255, 251, 251);
+    border: none;
+    margin-top: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 2vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .form-signup button:hover {
+    background-color: #ffa1bd;
+  }
+  
+  .signup-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .signup-footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+  }
+  
+  .login-link {
+    color: #db6085;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width: 360px) {
+    .background-signup {
+      padding: 20px;
+    }
+  
+    .signup-form-container {
+      width: 90%;
+    }
+  
+    .h3-box-signup {
+      font-size: 4vh;
+    }
+  
+    .color-box-signup {
+      padding: 15px;
+    }
+  
+    .form-signup label {
+      font-size: 2vh;
+    }
+  
+    .form-signup input {
+      font-size: 2vh;
+      padding: 10px;
+    }
+  
+    .form-signup button {
+      font-size: 1.8vh;
+      padding: 10px;
+    }
+  
+    .signup-footer {
+      margin-top: 15px;
+    }
+  
+    .signup-footer p {
+      font-size: 1.8vh;
+    }
+    
+    .login-link {
+      font-size: 1.8vh;
+    }
+  }
+
+  
+  @media (min-width: 361px) and (max-width: 560px) {
+    .background-signup {
+      padding: 25px;
+    }
+  
+    .signup-form-container {
+      width: 80%;
+    }
+  
+    .h3-box-signup {
+      font-size: 4.2vh;
+    }
+  
+    .color-box-signup {
+      padding: 18px;
+    }
+  
+    .form-signup label {
+      font-size: 2.1vh;
+    }
+  
+    .form-signup input {
+      font-size: 2.1vh;
+      padding: 11px;
+    }
+  
+    .form-signup button {
+      font-size: 1.9vh;
+      padding: 11px;
+    }
+  
+    .signup-footer {
+      margin-top: 18px;
+    }
+  
+    .signup-footer p {
+      font-size: 1.9vh;
+    }
+  
+    .login-link {
+      font-size: 1.9vh;
+    }
+  }
+  
+  @media (min-width: 861px) and (max-width: 1397px) {
+    .background-signup {
+      padding: 33px;
+    }
+  
+    .signup-form-container {
+      width: 60%;
+    }
+  
+    .h3-box-signup {
+      font-size: 4.5vh;
+    }
+  
+    .color-box-signup {
+      padding: 20px;
+    }
+  
+    .form-signup label {
+      font-size: 2.3vh;
+    }
+  
+    .form-signup input {
+      font-size: 2.3vh;
+      padding: 12px;
+    }
+  
+    .form-signup button {
+      font-size: 2vh;
+      padding: 12px;
+    }
+  
+    .signup-footer {
+      margin-top: 20px;
+    }
+  
+    .signup-footer p {
+      font-size: 2vh;
+    }
+  
+    .login-link {
+      font-size: 2vh;
+    }
+  }
+  
+
+
+  

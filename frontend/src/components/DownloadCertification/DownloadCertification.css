@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .certificate-div {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .certificate-img-div {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .certificate-img {
+    height: 74vh;
+    width: 80vw;
+    padding: 30px;
+  }
+  
+  .certification-div-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none; 
+  }
+  
+  .h3-certification-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    color: #000;
+  }
+  
+  .certificate-details {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #000;
+  }
+  

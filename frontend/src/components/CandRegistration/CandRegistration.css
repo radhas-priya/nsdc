@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .background-candReg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:7%;
+    /* margin: 23px; */
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(255, 249, 252, 0.86), rgba(255, 255, 255, 0.9), rgba(255, 249, 252, 0.86));
+    padding: 33px;
+    font-family: "Montserrat ,sans-serif";
+  }
+  
+  .box-candreg-out {
+    width: 64%;
+    background-color: rgba(255, 234, 238, 0.25); /* Making the background color semi-transparent */
+    padding: 23px;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(243, 120, 192, 0.61);
+    backdrop-filter: blur(10px); /* Adding the blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: Adding a subtle border for the glass effect */
+  }
+  
+  .h3-box-cr {
+    text-align: center;
+    font-size: 4.5vh;
+    font-family:"Montserrat,san serif";
+    font-weight:lighter;
+    Opacity:0.8;
+   
+
+  }
+  
+  .color-box-candReg {
+    padding: 20px;
+  }
+  
+  .h1-box-cr {
+    margin-bottom: 20px;
+  }
+  
+
+  .form-cr {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .form-cr label {
+    margin-top: 10px;
+    font-family:"Montserrat";
+    font-size:2.3vh;
+    /* font-weight:normal; */
+  }
+  
+
+
+  .form-cr input,
+  .form-cr select {
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 4px solid #ffc3c3;
+    background-color: rgba(255, 195, 232, 0.795); 
+    cursor: pointer;
+    font-family: "Poppins,sans-serif";
+    font-size:2.3vh;
+  }
+
+
+
+  .form-cr input:hover{
+   border:4px solid white;
+  }
+  
+
+  .form-cr select:hover{
+    border:4px solid white;
+  }
+
+
+  .form-cr button {
+    padding: 12px;
+    background-color: #db6085;
+    color: rgb(255, 251, 251);
+    border: none;
+    margin-top: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 2vh;
+    font-family:"Montserrat ,sans-serif";
+  }
+  
+  .form-cr button:hover {
+    background-color: #ffa1bd;
+  }
+  
+
+
+  /* media queries at max width :360 */
+  @media (max-width: 360px) {
+    .background-candReg {
+      padding: 20px;
+      margin-top: 60%;
+    }
+  
+    .box-candreg-out {
+      width: 90%;
+      padding: 15px;
+      border-radius: 20px;
+    }
+  
+    .h3-box-cr {
+      font-size: 3.5vh;
+    }
+  
+    .form-cr label {
+      font-size: 2vh;
+    }
+  
+    .form-cr input,
+    .form-cr select {
+      font-size: 2vh;
+      padding: 10px;
+    }
+  
+    .form-cr button {
+      font-size: 1.8vh;
+      padding: 10px;
+    }
+  }
+
+  
+  @media (min-width: 361px) and (max-width: 560px) {
+    .background-candReg {
+      padding: 25px;
+      margin-top: 56%;
+    }
+  
+    .box-candreg-out {
+      width: 85%;
+      padding: 18px;
+      border-radius: 25px;
+    }
+  
+    .h3-box-cr {
+      font-size: 4vh;
+    }
+  
+    .form-cr label {
+      font-size: 2.2vh;
+    }
+  
+    .form-cr input,
+    .form-cr select {
+      font-size: 2.2vh;
+      padding: 11px;
+    }
+  
+    .form-cr button {
+      font-size: 1.9vh;
+      padding: 11px;
+    }
+  }
+
+  @media (min-width: 561px) and (max-width: 860px) {
+    .background-candReg {
+      padding: 30px;
+      margin-top: 46%;
+    }
+  
+    .box-candreg-out {
+      width: 75%;
+      padding: 20px;
+      border-radius: 30px;
+    }
+  
+    .h3-box-cr {
+      font-size: 4.2vh;
+    }
+  
+    .form-cr label {
+      font-size: 2.4vh;
+    }
+  
+    .form-cr input,
+    .form-cr select {
+      font-size: 2.4vh;
+      padding: 12px;
+    }
+  
+    .form-cr button {
+      font-size: 2vh;
+      padding: 12px;
+    }
+  }
+
+  
+
+  @media (min-width: 861px) and (max-width: 1397px) {
+    .background-candReg {
+      padding: 40px;
+      margin-top: 19%;
+    }
+  
+    .box-candreg-out {
+      width: 70%;
+      padding: 25px;
+      border-radius: 30px;
+    }
+  
+    .h3-box-cr {
+      font-size: 4vh;
+    }
+  
+    .form-cr label {
+      font-size: 2.5vh;
+    }
+  
+    .form-cr input,
+    .form-cr select {
+      font-size: 2.5vh;
+      padding: 14px;
+    }
+  
+    .form-cr button {
+      font-size: 2.1vh;
+      padding: 14px;
+    }
+  }
+  

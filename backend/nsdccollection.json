@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "52312694-e2c5-455a-9a29-758876ebb947",
+		"name": "NSDCProd",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "36995828"
+	},
+	"item": [
+		{
+			"name": "CRF Token",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": "https://adminservices.skillindiadigital.gov.in/api/user/v1"
+			},
+			"response": []
+		},
+		{
+			"name": "public and secret key",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Csrf-Token",
+						"value": "tVeTPhTE/YfCKaaFYr1w6cayn0OT9ybuuWwDKIWtVOVm2KBeUVBDtEBxRkGYzN6oKGdY2NGfZktnpN2hPrhkEg==",
+						"type": "text"
+					}
+				],
+				"url": "https://uatservices.ekaushal.com/api/user/v1/getkey"
+			},
+			"response": []
+		},
+		{
+			"name": "Auth Key",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Csrf-Token",
+						"value": "p4bzYmm0ful0WCjyVuVtEYmEujZcDt2BbDBXkJgpggEon8/sAYHhoTGgN3jYSDc9uFVCgFDFQnQblV3JdhLjYA=="
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\": \"TP200988\",\n    \"password\": \"pOtS1coCspoCJnUzbDE5MEGs+J4bQILKUPyBEF2fR+2sINzLNvrtFE5Zt8YQIx49FNc72Z5ZH1aRFXNR/2TZ1teCfmww1mwG2RoWyU4C5UNf8MnPjm2n36uO76ySNNhDhR9dH+KU/5DNYdv1cQp4fLCsd+Vc68gF1+SYIjTQ744DGd5HPF8c0lxDIdj9cUycp81vJxNVUfWjFVfUpoaOWGxFcu4h8E73xwoP8APRJPt2aQzx92I634DuIO7Quc17q8RD2qD/RnrCBcQIRgq36S4YuXH8OuT5RWjQ5mhljzSgbK0Gn4enTh6g+9gcU598Q+TmCFxrHpHjBW5N+OZdRgBYxQhotdetuwdbRgRLArPjUMaBlG0k6M4MkOn6WFlsqUwYHHdZ9pkBnWSOO5NSpz5ZGJfoyhkGRssO4m//zHPFadKtMzt+P3EaovMaGn5qN8XOoXrXBC/C+4i4q4DXgztOWPBKjIzAoPVO9xFSCAQLeYonTWavuFsHKCOk015L2BkK+02xI+b4CCmSyubJijZENlfNfRq83husLEe3Uzgy117CYkvE7ringwAhIgCom/xn8GSCbZ3Kb72tcl0x8gypbLU/UPS8nj9gyVJk5urjPx1EJdXFTyPfk7paJz1XslaSueXf+DQWL3/w6fwMC1bAR1exZg9UD9c92PMA3j8=JSm9mpOtS1coCspoCJnUzbDE5MEGs+J4bQILKUPyBEF2fR+2sINzLNvrtFE5Zt8YQIx49FNc72Z5ZH1aRFXNR/2TZ1teCfmww1mwG2RoWyU4C5UNf8MnPjm2n36uO76ySNNhDhR9dH+KU/5DNYdv1cQp4fLCsd+Vc68gF1+SYIjTQ744DGd5HPF8c0lxDIdj9cUycp81vJxNVUfWjFVfUpoaOWGxFcu4h8E73xwoP8APRJPt2aQzx92I634DuIO7Quc17q8RD2qD/RnrCBcQIRgq36S4YuXH8OuT5RWjQ5mhljzSgbK0Gn4enTh6g+9gcU598Q+TmCFxrHpHjBW5N+OZdRgBYxQhotdetuwdbRgRLArPjUMaBlG0k6M4MkOn6WFlsqUwYHHdZ9pkBnWSOO5NSpz5ZGJfoyhkGRssO4m//zHPFadKtMzt+P3EaovMaGn5qN8XOoXrXBC/C+4i4q4DXgztOWPBKjIzAoPVO9xFSCAQLeYonTWavuFsHKCOk015L2BkK+02xI+b4CCmSyubJijZENlfNfRq83husLEe3Uzgy117CYkvE7ringwAhIgCom/xn8GSCbZ3Kb72tcl0x8gypbLU/UPS8nj9gyVJk5urjPx1EJdXFTyPfk7paJz1XslaSueXf+DQWL3/w6fwMC1bAR1exZg9UD9c92PMA3j8=JSm9m\"\n    // generate password - Angular code mentioned in the document. \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://adminservices.skillindiadigital.gov.in/api/user/v1/login"
+			},
+			"response": []
+		},
+		{
+			"name": "Candidate Registration",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Csrf-Token",
+						"value": "8yUR1/VtCrlu3pdbzlCmnr/F0Y5z6leD/OPBcYp5FbZDe9mKMPmEZFJU5kIwt3lv8VptDGz0KE9389lJSJR9Pw=="
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzdGhhMDJAeW9wbWFpbC5jb20iLCJleHAiOjE3MjA2ODUzMDcsImZpcnN0TmFtZSI6IiIsImhhc0ZpbGxlZFJlZ2lzdHJhdGlvbkluZm8iOmZhbHNlLCJpYXQiOjE3MjA2ODE3MDcsImlzcyI6Ik5TRENfU2VydmVyIiwicm9sZSI6IlRyYWluaW5nIFBhcnRuZXIiLCJzdGF0dXMiOiJpbml0IiwidG9rZW4iOiJ4SlJVWmZBIiwidXNlck5hbWUiOiJUUDIwMDk4OCJ9.5PfXvaKhMdC3Zo7KFFmWXQLTRd3a0JS2Z2TiT0J97Ts"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n  \"personalDetails\": { \n    \"namePrefix\": \"Mr\", \n    \"firstName\": \"KumarT Singh\", \n    \"gender\": \"Male\", \n    \"dob\": \"2005-03-01T00:00:00.000Z\", \n    \"fatherName\": \"PQR\", \n    \"guardianName\": \"LMN\" \n}, \n  \"contactDetails\": { \n    \"email\": \"ganuj754@gmail.com\", \n    \"phone\": 9665868485, \n    \"countryCode\": \"+91\" \n  } \n} "
+				},
+				"url": "https://adminservices.skillindiadigital.gov.in/api/user/v1/register/Candidate/v1"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Batch",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Csrf-Token",
+						"value": "/xfkqlYXJUxKIMyRgHKmqJALazy+8gp6O9KQyjAtroo5UA/PvBSbJCzMCApp+qN+6/bdkzdmreIjC7pjU2/rpw=="
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFzdGhhMDJAeW9wbWFpbC5jb20iLCJleHAiOjE3MjA2ODk1NjYsImZpcnN0TmFtZSI6IiIsImhhc0ZpbGxlZFJlZ2lzdHJhdGlvbkluZm8iOmZhbHNlLCJpYXQiOjE3MjA2ODU5NjYsImlzcyI6Ik5TRENfU2VydmVyIiwicm9sZSI6IlRyYWluaW5nIFBhcnRuZXIiLCJzdGF0dXMiOiJpbml0IiwidG9rZW4iOiIzNkpxOUx6IiwidXNlck5hbWUiOiJUUDIwMDk4OCJ9.wJS7R8lFToinxAXcc0v3hUa_hebOJgjfD9Wj6WyziZA"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"batchName\": \"Batch 1408923\",\r\n    \"size\": 1,\r\n    \"batchType\": \"Regular\",\r\n    \"skillingcategory\": {\r\n    \"name\": \"NSDC Market led programme\",\r\n    \"id\": 1,\r\n    \"scheme\": \"Fee Based\"\r\n    },\r\n    \"type\": \"Fee Based\",\r\n    \"batchStartDate\": \"2023-05-11T00:00:00Z\",\r\n    \"batchEndDate\": \"2023-05-15T00:00:00Z\",\r\n    \"courseName\": \"Boutique Manager\",\r\n    \"courseId\": \"FeeSchCor_50601\",\r\n    \"schemeObjectId\": \"623dd254e1ee596457d0b33b\",\r\n    \"schemeReferenceId\": \"Scheme_1159\",\r\n    \"sector\": {\r\n    \"name\": \"Apparel\",\r\n    \"id\": \"2\"\r\n    },\r\n    \"trainingHoursPerDay\": 4,\r\n    \"batchTimings\": [\r\n    {\r\n    \"start\": \"2023-05-10T02:30:00Z\",\r\n    \"end\": \"2023-05-10T05:30:00Z\"\r\n    }\r\n    ],\r\n    \"batchStartTime\": \"2023-05-10T02:30:00Z\",\r\n    \"batchEndTime\": \"2023-05-10T05:30:00Z\",\r\n    \"subSectors\": {\r\n    \"subSectorID\": \"\",\r\n    \"subSectorName\": \"\"\r\n    },\r\n    \"jobRoles\": [\r\n    {\r\n    \"qpCode\": \"N/A\",\r\n    \"jobName\": \"Boutique Manager\",\r\n    \"version\": \"\",\r\n    \"nsqfLevel\": \"6\"\r\n    }\r\n    ],\r\n    \"batchFee\": {\r\n    \"totalFees\": 1000\r\n    },\r\n    \"feePaidBy\": \"Self-Paid\",\r\n    \"donorOrCorporateName\": \"\",\r\n    \"tpId\": \"TP200988\",\r\n    \"tpName\": \"Times Centre for Learning Limited\",\r\n    \"schemeType\": \"feeBased\",\r\n    \"expository\": \"\",\r\n    \"schemeId\": \"9994016\",\r\n    \"tcId\": \"TC357445\",\r\n    \"trainerDetails\": {\r\n    \"userName\": \"KumarT Singh\",\r\n    \"name\": \"KumarT Singh\",\r\n    \"email\": \"ganuj754@gmail.com\",\r\n    \"mobile\": \"9565868485\",\r\n    \"trainingStartDate\": \"2023-05-11T00:00:00Z\",\r\n    \"trainingEndDate\": \"2023-05-15T00:00:00Z\"\r\n    },\r\n    \"status\": \"BATCH CREATED\",\r\n    \"assessmentMode\": \"Self\",\r\n    \"createdSource\": \"Created from Urbanclap API\",\r\n    \"createdBy\": \"TP200988\",\r\n    \"assessmentStartDate\": \"2023-05-16T00:00:00Z\",\r\n    \"assessmentEndDate\": \"2023-05-18T00:00:00Z\",\r\n    \"stage\": \"enrollment\",\r\n    \"tcName\": \"Test\",\r\n    \"address\": {\r\n    \"address1\": \"\"\r\n,\r\n    \"addressProof\": {\r\n    \"locationURL\": \"Training Partner/TP136044/doc/06e7fee9-c4ff-4e30-8a64-9532bd49ce6b_209ffbcd867b4aa28bdd7de136a6c4a7_MultibhashiNSDC Partnership Agreement Signed.pdf\",\r\n    \"type\": \"MoU/Agreement\"\r\n    },\r\n    \"ciLandmark\": \"Chandigarh\",\r\n    \"civerified\": false,\r\n    \"district\": {\r\n    \"id\": 44,\r\n    \"name\": \"CHANDIGARH\"\r\n    },\r\n    \"landmark\": \"CHANDIGARH\",\r\n    \"location\": {\r\n    \"formattedAddress\": \"\",\r\n    \"latitude\": \"28.5362746\",\r\n    \"longitude\": \"77.11404329999999\"\r\n    },\r\n    \"parliamentaryConstituency\": {\r\n    \"id\": 44,\r\n    \"name\": \"CHANDIGARH\"\r\n    },\r\n    \"pincode\": \"133301\",\r\n    \"state\": {\r\n      \"id\": 44,\r\n       \"name\": \"CHANDIGARH\"\r\n    }\r\n    }\r\n    }"
+				},
+				"url": "https://adminservices.skillindiadigital.gov.in/api/batch/v1/create"
+			},
+			"response": []
+		},
+		{
+			"name": "Assessment Submission",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Csrf-Token",
+						"value": "qFcQwW/iC7ZuVTY6oq6yELSRpFg1i+5ngwnF4++fVaRWyL6YWU0UyM6X1PXBqxg8oC/mEhBL7r1pENCJMGCj3w=="
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Rpbmd0ZWFtQHRyYW5zbmV1cm9uLmNvbSIsImV4cCI6MTcxNzc0Mzg5OCwiZmlyc3ROYW1lIjoiQnJpamVzaCBLdW1hciBNaXNocmEiLCJoYXNGaWxsZWRSZWdpc3RyYXRpb25JbmZvIjpmYWxzZSwiaWF0IjoxNzE3NzQwMjk4LCJpc3MiOiJOU0RDX1NlcnZlciIsInJvbGUiOiJUcmFpbmluZyBQYXJ0bmVyIiwic3RhdHVzIjoiYWN0aXZlIiwidG9rZW4iOiJhWVhLQUpaIiwidXNlck5hbWUiOiJUUDM4MjU1In0._2zY3Hp7RxrYWCB2j2Ks8x6fRxuhCZq7zcDxVBcV1vA"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"batchId\": 2095710,\n    \"candidates\": [\n            {\n            \"candidateID\": \"CAN_27061905\",\n            \"trainingDetails\": {\n                \"trainingStatus\": \"Completed\",\n                \"attendance\": 90\n            },\n            \"assessmentDetails\": {\n                \"assessmentStatus\": \"Pass\",\n                \"assessmentPercentage\": 90,\n                \"grade\": \"A\",\n                \"assessmentDataUploadedOn\": \"2023-05-20T00:00:00.000Z\",\n                \"assessmentAgency\": \"Self\",\n                \"assessorID\": \"\",\n                \"assessorName\": \"\"\n            },\n            \"certificationDetails\": {\n                \"certificationName\": \"dsadad\",\n                \"isCertified\": true,\n                \"certifyingAgency\": \"slef\",\n                \"certificationDate\": \"2023-05-22T00:00:00.000Z\"\n            }\n        }\n    ]\n}"
+				},
+				"url": "https://adminservices.skillindiadigital.gov.in/v1/candidates/candidate/pushBatchEachCandidate"
+			},
+			"response": []
+		},
+		{
+			"name": "Generate Certificate:",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-Csrf-Token",
+						"value": "7GqnKwPNDHZLMLuTbrD6WqxHvpEMJMe0bzwpsy07WC21LWBfkLMOPMAghuv4c0ooKts33YE1I9LDasShEPudrw=="
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Rpbmd0ZWFtQHRyYW5zbmV1cm9uLmNvbSIsImV4cCI6MTY4MzcwMjM4NSwiZmlyc3ROYW1lIjoiQnJpamVzaCBLdW1hciBNaXNocmEiLCJoYXNGaWxsZWRSZWdpc3RyYXRpb25JbmZvIjpmYWxzZSwiaWF0IjoxNjgzNjk4Nzg1LCJpc3MiOiJOU0RDX1NlcnZlciIsInJvbGUiOiJUcmFpbmluZyBQYXJ0bmVyIiwic3RhdHVzIjoiYWN0aXZlIiwidG9rZW4iOiJYQTFEWUFTIiwidXNlck5hbWUiOiJUUDM4MjU1In0.Hin_PR-UA4cUNsHdcOtkHZGWF5RO4DA1oTFYBDpr4PI"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"userName\": \"CAN_4776295\",\n    \"batchId\": 2095710\n}"
+				},
+				"url": {
+					"raw": "https://adminservices.skillindiadigital.gov.in/api/v1/cert/certificate?for=trainingPartner",
+					"protocol": "https",
+					"host": [
+						"adminservices",
+						"skillindiadigital",
+						"gov",
+						"in"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cert",
+						"certificate"
+					],
+					"query": [
+						{
+							"key": "for",
+							"value": "trainingPartner"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Download Certificate",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Csrf-Token",
+						"value": "7GqnKwPNDHZLMLuTbrD6WqxHvpEMJMe0bzwpsy07WC21LWBfkLMOPMAghuv4c0ooKts33YE1I9LDasShEPudrw=="
+					},
+					{
+						"key": "Authorization",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3Rpbmd0ZWFtQHRyYW5zbmV1cm9uLmNvbSIsImV4cCI6MTY4MzcwMjM4NSwiZmlyc3ROYW1lIjoiQnJpamVzaCBLdW1hciBNaXNocmEiLCJoYXNGaWxsZWRSZWdpc3RyYXRpb25JbmZvIjpmYWxzZSwiaWF0IjoxNjgzNjk4Nzg1LCJpc3MiOiJOU0RDX1NlcnZlciIsInJvbGUiOiJUcmFpbmluZyBQYXJ0bmVyIiwic3RhdHVzIjoiYWN0aXZlIiwidG9rZW4iOiJYQTFEWUFTIiwidXNlck5hbWUiOiJUUDM4MjU1In0.Hin_PR-UA4cUNsHdcOtkHZGWF5RO4DA1oTFYBDpr4PI"
+					}
+				],
+				"url": {
+					"raw": "https://adminservices.skillindiadigital.gov.in/api/v1/cert/uc/singledocdownload?batchId=2095710&candidateId=CAN_4776295&type=externalcertificate",
+					"protocol": "https",
+					"host": [
+						"adminservices",
+						"skillindiadigital",
+						"gov",
+						"in"
+					],
+					"path": [
+						"api",
+						"v1",
+						"cert",
+						"uc",
+						"singledocdownload"
+					],
+					"query": [
+						{
+							"key": "batchId",
+							"value": "2095710"
+						},
+						{
+							"key": "candidateId",
+							"value": "CAN_4776295"
+						},
+						{
+							"key": "type",
+							"value": "externalcertificate"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

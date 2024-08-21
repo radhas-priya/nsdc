@@ -1,0 +1,181 @@
+
+.background-gc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(255, 249, 252, 0.86), rgba(255, 255, 255, 0.9), rgba(255, 249, 252, 0.86));
+    padding: 33px;
+  }
+  
+  .gc-form-container {
+    width: 60%;
+  }
+  
+  .color-box-gc {
+    background-color: rgba(255, 234, 238, 0.25); /* Semi-transparent background */
+    padding: 23px;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px rgba(243, 120, 192, 0.61);
+    backdrop-filter: blur(10px); /* Glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border for glass effect */
+  }
+  
+  .h3-box-gc {
+    text-align: center;
+    font-size: 4.5vh;
+    font-family: "Montserrat, sans-serif";
+    font-weight: lighter;
+    opacity: 0.8;
+  }
+  
+  .form-gc {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-gc label {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.3vh;
+  }
+  
+  .form-gc input {
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 4px solid #ffc3c3;
+    background-color: rgba(255, 195, 232, 0.795);
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3vh;
+  }
+  
+  .form-gc input:hover {
+    border: 4px solid white;
+  }
+  
+  .form-gc button {
+    padding: 12px;
+    background-color: #db6085;
+    color: rgb(255, 251, 251);
+    border: none;
+    margin-top: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 2vh;
+    font-family: "Montserrat", sans-serif;
+  }
+  .download-certificate{
+    text-align:center;
+  }
+  
+  .form-gc button:hover {
+    background-color: #ffa1bd;
+  }
+
+
+  @media (max-width: 360px) {
+    .background-gc {
+      padding: 17px;
+    }
+    
+    .gc-form-container {
+      width: 90%;
+    }
+    
+    .color-box-gc {
+      padding: 15px;
+      border-radius: 25px;
+    }
+    
+    .h3-box-gc {
+      font-size: 4.0vh;
+    }
+    
+    .form-gc label {
+      font-size: 2.0vh;
+    }
+    
+    .form-gc input {
+      font-size: 2.0vh;
+      padding: 10px;
+    }
+    
+    .form-gc button {
+      font-size: 1.8vh;
+      padding: 10px;
+    }
+    
+    .download-certificate {
+      font-size: 2.0vh;
+    }
+  }
+
+  
+  @media (min-width: 360px) and (max-width: 560px) {
+    .background-gc {
+      padding: 20px;
+    }
+  
+    .gc-form-container {
+      width: 90%;
+    }
+  
+    .color-box-gc {
+      padding: 18px;
+      border-radius: 25px;
+    }
+  
+    .h3-box-gc {
+      font-size: 4vh;
+    }
+  
+    .form-gc label {
+      font-size: 2vh;
+    }
+  
+    .form-gc input {
+      font-size: 2vh;
+    }
+  
+    .form-gc button {
+      font-size: 1.8vh;
+      padding: 10px;
+    }
+  }
+
+  
+  @media (min-width: 861px) and (max-width: 1397px) {
+    .background-gc {
+      padding: 30px;
+    }
+  
+    .gc-form-container {
+      width: 70%;
+    }
+  
+    .color-box-gc {
+      padding: 22px;
+      border-radius: 30px;
+    }
+  
+    .h3-box-gc {
+      font-size: 4.2vh;
+    }
+  
+    .form-gc label {
+      font-size: 2.2vh;
+    }
+  
+    .form-gc input {
+      font-size: 2.2vh;
+    }
+  
+    .form-gc button {
+      font-size: 2vh;
+      padding: 12px;
+    }
+  }
+  

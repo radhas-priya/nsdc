@@ -1,0 +1,237 @@
+/* Login.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.background-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, rgba(255, 249, 252, 0.86), rgba(255, 255, 255, 0.9), rgba(255, 249, 252, 0.86));
+  padding: 33px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-form-container {
+  width: 50%;
+  background-color: rgba(255, 234, 238, 0.25);
+  padding: 23px;
+  border-radius: 35px;
+  box-shadow: 0 4px 8px rgba(243, 120, 192, 0.61);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.h3-box-login {
+  text-align: center;
+  font-size: 4.5vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.color-box-login {
+  padding: 20px;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login label {
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3vh;
+}
+
+.form-login input {
+  padding: 12px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  border: 4px solid #ffc3c3;
+  background-color: rgba(255, 195, 232, 0.795);
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.3vh;
+}
+
+.form-login input:hover {
+  border: 4px solid white;
+}
+
+.form-login button {
+  padding: 12px;
+  background-color: #db6085;
+  color: rgb(255, 251, 251);
+  border: none;
+  margin-top: 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 2vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-login button:hover {
+  background-color: #ffa1bd;
+}
+
+.login-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-footer p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2vh;
+}
+
+.signup-link {
+  color: #db6085;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 360px) {
+  .background-login {
+    padding: 20px;
+  }
+
+  .login-form-container {
+    width: 90vw;
+  }
+
+  .h3-box-login {
+    font-size: 5vh;
+  }
+
+  .color-box-login {
+    padding: 15px;
+  }
+
+  .form-login label {
+    font-size: 2.5vh;
+  }
+
+  .form-login input {
+    font-size: 2.5vh;
+    padding: 10px;
+  }
+
+  .form-login button {
+    font-size: 2.3vh;
+    padding: 10px;
+  }
+
+  .login-footer {
+    margin-top: 15px;
+  }
+
+  .login-footer p {
+    font-size: 2.3vh;
+  }
+
+  .signup-link {
+    font-size: 2.3vh;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 560px) {
+  .background-login {
+    padding: 18px;
+  }
+
+  .login-form-container {
+    width: 80%;
+  }
+
+  .h3-box-login {
+    font-size: 5vh;
+  }
+
+  .color-box-login {
+    padding: 18px;
+  }
+
+  .form-login label {
+    font-size: 2.5vh;
+  }
+
+  .form-login input {
+    font-size: 2.5vh;
+    padding: 12px;
+  }
+
+  .form-login button {
+    font-size: 2.3vh;
+    padding: 12px;
+  }
+
+  .login-footer {
+    margin-top: 18px;
+  }
+
+  .login-footer p {
+    font-size: 2.5vh;
+  }
+
+  .signup-link {
+    font-size: 2.5vh;
+  }
+}
+
+@media (min-width: 861px) and (max-width: 1397px) {
+  .background-login {
+    padding: 30px;
+  }
+
+  .login-form-container {
+    width: 60%;
+  }
+
+  .h3-box-login {
+    font-size: 4vh;
+  }
+
+  .color-box-login {
+    padding: 22px;
+  }
+
+  .form-login label {
+    font-size: 2.1vh;
+  }
+
+  .form-login input {
+    font-size: 2.1vh;
+  }
+
+  .form-login button {
+    font-size: 2.1vh;
+    padding: 10px;
+  }
+
+  .login-footer {
+    margin-top: 20px;
+  }
+
+  .login-footer p {
+    font-size: 2.1vh;
+  }
+
+  .signup-link {
+    font-size: 2.1vh;
+  }
+}
